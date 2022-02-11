@@ -16,6 +16,10 @@ module.exports = {
         test: /\.css$/g, // 解析css
         use: ["style-loader", "css-loader"],
       },
+      {
+        test: /\.less$/g, // 解析css
+        use: ["style-loader", "css-loader","less-loader"],
+      },
     ],
   },
   plugins:[
