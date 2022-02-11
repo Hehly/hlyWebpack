@@ -10,7 +10,8 @@
 
 ### webpack 到底在干什么？
 1. webpack 主要在浏览器使用 不能直接使用node
-2. 多文件打包成单个 
+2. 多文件打包成单个
+3. 静态资源打包器
 
 
 ### webpack 配置 commonJS规范
@@ -19,3 +20,8 @@
 2. 出口 outputh
 3. 插件 plugins
 4. loader 处理转换
+
+### 自动监视变化编译
+1. script 中添加 webpack -watch 当文件改变 就会重新打包
+2. 在 webpack.config.js 中配置watch:true 和一是一样的额
+3. 推荐webpack-dev-server
