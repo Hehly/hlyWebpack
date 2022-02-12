@@ -31,6 +31,7 @@ module.exports = {
   ],
 //   watch: true, // 开启监视 方案二
   devServer: {
+    host: "127.0.0.1",
     open: true,
     port: 8080,
     compress: true,
